@@ -45,7 +45,8 @@ while True:
         server.login(fromuser, password)
         server.send_message(em)
         print("Email sent")
-        server.quit()   
+        server.quit()  
+        #update every 30 minutes 
         time.sleep(1800)
 
 
